@@ -1,0 +1,7 @@
+Acceptance criteria describe expected behavior. Test cases make it observable—and often reveal missing scenarios.
+
+For a discount feature, start with a valid code, then examine expired, invalid or already-used codes as the rules require.
+
+Good questions during refinement prevent confusion later.
+
+#AcceptanceCriteria #SoftwareTesting #AgileTesting #QATesting

@@ -1,0 +1,5 @@
+A good technical note saves future-you a second investigation. Capture the goal, relevant environment, observed result and next action.
+
+Even a short note can prevent an hour of trying to remember why something was changed.
+
+#TechWorkflow #ProductivityTips #Documentation #DeveloperLife

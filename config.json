@@ -1,0 +1,9 @@
+{
+  "brand": "Frostclaw Software",
+  "instagram": "frostclaw.software",
+  "timezone": "Europe/Warsaw",
+  "posting_time": "18:30",
+  "github_username": "DragArso",
+  "github_repository": "frostclaw-tech-tips",
+  "default_model": "llama3.2:3b"
+}

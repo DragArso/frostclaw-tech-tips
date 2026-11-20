@@ -1,0 +1,7 @@
+The goal of a bug report is not to sound technical. It's to make the issue easy to reproduce and understand.
+
+Include environment, steps, actual result and expected result. Add a screenshot or short recording when it really helps.
+
+Save this for your next testing session.
+
+#BugReporting #QualityAssurance #SoftwareTesting #DevWorkflow

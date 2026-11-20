@@ -1,0 +1,7 @@
+If someone else can't reproduce your bug, even a serious issue can become difficult to investigate.
+
+Use numbered steps, exact inputs, the relevant environment and a clear observed outcome. Keep unrelated actions out of the sequence.
+
+Good reproduction steps are a form of teamwork.
+
+#BugReports #QALife #SoftwareEngineering #TestingTips

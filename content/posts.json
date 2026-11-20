@@ -1,0 +1,182 @@
+[
+  {
+    "id": "01",
+    "pillar": "QA BASICS",
+    "title": "Test a login form in 5 minutes",
+    "hook": "Five checks that reveal common problems.",
+    "steps": [
+      {"label": "Valid details", "detail": "Can a real user sign in?"},
+      {"label": "Wrong password", "detail": "Is the failure message clear?"},
+      {"label": "Empty fields", "detail": "Are required inputs handled?"},
+      {"label": "Show / hide", "detail": "Does the password toggle work?"}
+    ],
+    "takeaway": "BONUS: Check the 'Forgot password?' flow.",
+    "caption": "A login form looks simple—until you test more than the happy path. Start with valid credentials, an incorrect password, empty fields and password visibility. Then check recovery and how errors are displayed.\n\nWhich login bug have you encountered most often?",
+    "hashtags": ["#SoftwareTesting", "#QATesting", "#ManualTesting", "#WebDevelopment"]
+  },
+  {
+    "id": "02",
+    "pillar": "QA BASICS",
+    "title": "Write bug reports developers can use",
+    "hook": "A useful report answers four questions.",
+    "steps": [
+      {"label": "Where?", "detail": "Page, app version and environment"},
+      {"label": "How?", "detail": "Clear steps to reproduce"},
+      {"label": "What happened?", "detail": "Actual result and evidence"},
+      {"label": "What should happen?", "detail": "Expected behavior"}
+    ],
+    "takeaway": "GOOD TITLE: 'Checkout fails after expired coupon'.",
+    "caption": "The goal of a bug report is not to sound technical. It's to make the issue easy to reproduce and understand.\n\nInclude environment, steps, actual result and expected result. Add a screenshot or short recording when it really helps.\n\nSave this for your next testing session.",
+    "hashtags": ["#BugReporting", "#QualityAssurance", "#SoftwareTesting", "#DevWorkflow"]
+  },
+  {
+    "id": "03",
+    "pillar": "QA BASICS",
+    "title": "Smoke testing vs regression testing",
+    "hook": "They answer two different questions.",
+    "steps": [
+      {"label": "Smoke tests", "detail": "Is this build stable enough to test?"},
+      {"label": "Regression tests", "detail": "Did existing behavior break?"},
+      {"label": "Example", "detail": "Smoke: login and checkout load"},
+      {"label": "Example", "detail": "Regression: coupon and refund flows"}
+    ],
+    "takeaway": "SCOPE depends on product risk and release changes.",
+    "caption": "Smoke testing is a quick check of critical functionality on a new build. Regression testing looks for unintended breakage in previously working behavior after changes.\n\nThey overlap sometimes, but their purpose and depth differ.\n\nWhich one does your team run more often?",
+    "hashtags": ["#QATesting", "#SoftwareQuality", "#ManualTesting", "#SoftwareDevelopment"]
+  },
+  {
+    "id": "04",
+    "pillar": "WORKFLOW",
+    "title": "A checklist beats a good memory",
+    "hook": "Especially when work gets repetitive.",
+    "steps": [
+      {"label": "Define the trigger", "detail": "When should you use the list?"},
+      {"label": "Make steps observable", "detail": "Use 'verify', not 'review stuff'"},
+      {"label": "Group by priority", "detail": "Critical checks come first"},
+      {"label": "Update after mistakes", "detail": "Improve the list when you learn"}
+    ],
+    "takeaway": "CHECKLISTS support judgment; they don't replace it.",
+    "caption": "A checklist is not proof that work is easy. It's a way to preserve attention for decisions instead of trying to remember repetitive steps.\n\nKeep each item specific enough to verify, and revise the list when a new issue teaches you something.",
+    "hashtags": ["#ProductivityTips", "#Workflows", "#TechTips", "#QualityAssurance"]
+  },
+  {
+    "id": "05",
+    "pillar": "QA BASICS",
+    "title": "Test the boundaries, not only the middle",
+    "hook": "Input limits hide surprisingly useful bugs.",
+    "steps": [
+      {"label": "Minimum", "detail": "Try one character below the limit"},
+      {"label": "At the limit", "detail": "Verify the exact boundary"},
+      {"label": "Maximum", "detail": "Try one character above it"},
+      {"label": "Unexpected input", "detail": "Spaces, symbols and blank values"}
+    ],
+    "takeaway": "EXAMPLE: For 3–20 chars, test 2, 3, 20 and 21.",
+    "caption": "Boundary value analysis is a simple way to prioritize tests around input limits.\n\nIf a name field accepts 3–20 characters, test 2, 3, 20 and 21—not just an ordinary 10-character value. Then consider whitespace, special characters and any normalization rules.\n\nThe specification is your source of truth.",
+    "hashtags": ["#SoftwareTesting", "#TestDesign", "#QATesting", "#TechEducation"]
+  },
+  {
+    "id": "06",
+    "pillar": "SPREADSHEETS",
+    "title": "Make spreadsheets easier to maintain",
+    "hook": "A few rules save future-you time.",
+    "steps": [
+      {"label": "One header row", "detail": "Give every column a clear name"},
+      {"label": "Consistent statuses", "detail": "Use a dropdown, not free text"},
+      {"label": "Separate raw and summary", "detail": "Keep data entry distinct from totals"},
+      {"label": "Avoid merged cells", "detail": "Especially inside data tables"}
+    ],
+    "takeaway": "LESS CLEANUP = more time for actual analysis.",
+    "caption": "A spreadsheet can be simple and still be well structured.\n\nUse clear headers, controlled status options, a separate summary area, and avoid merging cells within the data table. These habits make sorting, filtering and formulas much more reliable.\n\nWhat's your spreadsheet pet peeve?",
+    "hashtags": ["#SpreadsheetTips", "#ExcelTips", "#Productivity", "#WorkflowDesign"]
+  },
+  {
+    "id": "07",
+    "pillar": "QA BASICS",
+    "title": "A good reproduction step is specific",
+    "hook": "Compare vague wording with a useful example.",
+    "steps": [
+      {"label": "Too vague", "detail": "'Open the page and try again'"},
+      {"label": "Better", "detail": "'Open Cart with 2 items added'"},
+      {"label": "Then", "detail": "'Enter an expired promo code'"},
+      {"label": "Observe", "detail": "'Click Apply; note the 500 error'"}
+    ],
+    "takeaway": "WRITE steps another person can repeat.",
+    "caption": "If someone else can't reproduce your bug, even a serious issue can become difficult to investigate.\n\nUse numbered steps, exact inputs, the relevant environment and a clear observed outcome. Keep unrelated actions out of the sequence.\n\nGood reproduction steps are a form of teamwork.",
+    "hashtags": ["#BugReports", "#QALife", "#SoftwareEngineering", "#TestingTips"]
+  },
+  {
+    "id": "08",
+    "pillar": "QA BASICS",
+    "title": "Don't forget form validation tests",
+    "hook": "Four practical cases for almost any form.",
+    "steps": [
+      {"label": "Empty required field", "detail": "Is the user guided to fix it?"},
+      {"label": "Invalid format", "detail": "e.g. an incorrectly formatted email"},
+      {"label": "Valid edge case", "detail": "A value near an allowed limit"},
+      {"label": "Retry after error", "detail": "Can the form recover cleanly?"}
+    ],
+    "takeaway": "VALIDATION should be checked on server too.",
+    "caption": "When checking a form, don't stop at whether the Submit button works. Test required fields, invalid formats, allowed boundary values and recovery after an error.\n\nClient-side messages help users, but server-side validation remains important for enforcing rules.",
+    "hashtags": ["#WebTesting", "#QATesting", "#WebDevelopment", "#SoftwareQuality"]
+  },
+  {
+    "id": "09",
+    "pillar": "WORKFLOW",
+    "title": "Write notes your future self can use",
+    "hook": "Context disappears faster than you think.",
+    "steps": [
+      {"label": "Record the goal", "detail": "What were you trying to achieve?"},
+      {"label": "Capture the setup", "detail": "Version, device and dependencies"},
+      {"label": "Write the result", "detail": "What worked? What failed?"},
+      {"label": "Leave the next step", "detail": "What should happen next?"}
+    ],
+    "takeaway": "NOTES should reduce re-discovery, not create noise.",
+    "caption": "A good technical note saves future-you a second investigation. Capture the goal, relevant environment, observed result and next action.\n\nEven a short note can prevent an hour of trying to remember why something was changed.",
+    "hashtags": ["#TechWorkflow", "#ProductivityTips", "#Documentation", "#DeveloperLife"]
+  },
+  {
+    "id": "10",
+    "pillar": "QA BASICS",
+    "title": "What to check before a release",
+    "hook": "Use this as a starting point, not a guarantee.",
+    "steps": [
+      {"label": "Critical journeys", "detail": "Core user tasks still work"},
+      {"label": "Known issues", "detail": "Open risks are visible to the team"},
+      {"label": "Recent changes", "detail": "Important regression areas covered"},
+      {"label": "Monitoring & rollback", "detail": "Know how to spot and undo trouble"}
+    ],
+    "takeaway": "RELEASE decisions are about understood risk.",
+    "caption": "There is no checklist that guarantees a bug-free release. But a short, risk-based review can help your team make a better decision.\n\nCheck critical user journeys, outstanding defects, regression areas related to recent changes, and the plan for monitoring or rollback.",
+    "hashtags": ["#ReleaseTesting", "#QualityEngineering", "#DevOps", "#SoftwareTesting"]
+  },
+  {
+    "id": "11",
+    "pillar": "SPREADSHEETS",
+    "title": "Track work with consistent statuses",
+    "hook": "Clear categories make dashboards useful.",
+    "steps": [
+      {"label": "Not run", "detail": "Test hasn't been executed yet"},
+      {"label": "Pass", "detail": "Observed result matches expected"},
+      {"label": "Fail", "detail": "Observed result differs"},
+      {"label": "Blocked", "detail": "Cannot execute due to a dependency"}
+    ],
+    "takeaway": "KEEP status definitions written down and consistent.",
+    "caption": "If one tester writes 'Done', another writes 'OK' and a third writes 'Passed', your dashboard starts lying.\n\nAgree on a small set of statuses and what they mean. Dropdowns help keep the data consistent—whether you're tracking tests, tasks or reviews.",
+    "hashtags": ["#ExcelTips", "#SoftwareTesting", "#ProjectTracking", "#Productivity"]
+  },
+  {
+    "id": "12",
+    "pillar": "QA BASICS",
+    "title": "Turn acceptance criteria into tests",
+    "hook": "A simple Given / When / Then example.",
+    "steps": [
+      {"label": "Given", "detail": "A signed-in user has items in cart"},
+      {"label": "When", "detail": "They apply a valid discount code"},
+      {"label": "Then", "detail": "The total reflects the discount"},
+      {"label": "Also test", "detail": "Expired, invalid and reused codes"}
+    ],
+    "takeaway": "CRITERIA describe behavior; tests probe it.",
+    "caption": "Acceptance criteria describe expected behavior. Test cases make it observable—and often reveal missing scenarios.\n\nFor a discount feature, start with a valid code, then examine expired, invalid or already-used codes as the rules require.\n\nGood questions during refinement prevent confusion later.",
+    "hashtags": ["#AcceptanceCriteria", "#SoftwareTesting", "#AgileTesting", "#QATesting"]
+  }
+]

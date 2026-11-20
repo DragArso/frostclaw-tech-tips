@@ -1,0 +1,5 @@
+There is no checklist that guarantees a bug-free release. But a short, risk-based review can help your team make a better decision.
+
+Check critical user journeys, outstanding defects, regression areas related to recent changes, and the plan for monitoring or rollback.
+
+#ReleaseTesting #QualityEngineering #DevOps #SoftwareTesting

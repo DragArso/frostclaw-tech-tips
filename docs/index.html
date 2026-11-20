@@ -1,0 +1,39 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Frostclaw Software — Tech Tips</title><style>
+    body{font:16px system-ui,sans-serif;background:#091321;color:#ecf4fb;margin:0;padding:32px;}main{max-width:1050px;margin:auto}h1{font-size:2.2rem}p{line-height:1.6;color:#b7d0da}a{color:#5de3c8}section{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}article{background:#14283a;border:1px solid #284458;border-radius:14px;overflow:hidden}article img{width:100%;height:auto;display:block}article div{padding:18px}article h2{font-size:1.15rem}footer{margin-top:50px}</style></head><body><main>
+    <h1>Frostclaw Software · Practical tech tips</h1><p>Short, original software testing and workflow guides for learners. Posts are educational examples and should be adapted to your software and requirements.</p><section><article><img src="media/01_qa_basics.png" loading="lazy" alt="Test a login form in 5 minutes"><div><h2>Test a login form in 5 minutes</h2><p>A login form looks simple—until you test more than the happy path. Start with valid credentials, an incorrect password, empty fields and password visibility. Then check recovery and how errors are displayed.
+
+Which login bug have you encountered most often?</p></div></article><article><img src="media/02_qa_basics.png" loading="lazy" alt="Write bug reports developers can use"><div><h2>Write bug reports developers can use</h2><p>The goal of a bug report is not to sound technical. It&#x27;s to make the issue easy to reproduce and understand.
+
+Include environment, steps, actual result and expected result. Add a screenshot or short recording when it really helps.
+
+Save this for your next testing session.</p></div></article><article><img src="media/03_qa_basics.png" loading="lazy" alt="Smoke testing vs regression testing"><div><h2>Smoke testing vs regression testing</h2><p>Smoke testing is a quick check of critical functionality on a new build. Regression testing looks for unintended breakage in previously working behavior after changes.
+
+They overlap sometimes, but their purpose and depth differ.
+
+Which one does your team run more often?</p></div></article><article><img src="media/04_workflow.png" loading="lazy" alt="A checklist beats a good memory"><div><h2>A checklist beats a good memory</h2><p>A checklist is not proof that work is easy. It&#x27;s a way to preserve attention for decisions instead of trying to remember repetitive steps.
+
+Keep each item specific enough to verify, and revise the list when a new issue teaches you something.</p></div></article><article><img src="media/05_qa_basics.png" loading="lazy" alt="Test the boundaries, not only the middle"><div><h2>Test the boundaries, not only the middle</h2><p>Boundary value analysis is a simple way to prioritize tests around input limits.
+
+If a name field accepts 3–20 characters, test 2, 3, 20 and 21—not just an ordinary 10-character value. Then consider whitespace, special characters and any normalization rules.
+
+The specification is your source of truth.</p></div></article><article><img src="media/06_spreadsheets.png" loading="lazy" alt="Make spreadsheets easier to maintain"><div><h2>Make spreadsheets easier to maintain</h2><p>A spreadsheet can be simple and still be well structured.
+
+Use clear headers, controlled status options, a separate summary area, and avoid merging cells within the data table. These habits make sorting, filtering and formulas much more reliable.
+
+What&#x27;s your spreadsheet pet peeve?</p></div></article><article><img src="media/07_qa_basics.png" loading="lazy" alt="A good reproduction step is specific"><div><h2>A good reproduction step is specific</h2><p>If someone else can&#x27;t reproduce your bug, even a serious issue can become difficult to investigate.
+
+Use numbered steps, exact inputs, the relevant environment and a clear observed outcome. Keep unrelated actions out of the sequence.
+
+Good reproduction steps are a form of teamwork.</p></div></article><article><img src="media/08_qa_basics.png" loading="lazy" alt="Don&#x27;t forget form validation tests"><div><h2>Don&#x27;t forget form validation tests</h2><p>When checking a form, don&#x27;t stop at whether the Submit button works. Test required fields, invalid formats, allowed boundary values and recovery after an error.
+
+Client-side messages help users, but server-side validation remains important for enforcing rules.</p></div></article><article><img src="media/09_workflow.png" loading="lazy" alt="Write notes your future self can use"><div><h2>Write notes your future self can use</h2><p>A good technical note saves future-you a second investigation. Capture the goal, relevant environment, observed result and next action.
+
+Even a short note can prevent an hour of trying to remember why something was changed.</p></div></article><article><img src="media/10_qa_basics.png" loading="lazy" alt="What to check before a release"><div><h2>What to check before a release</h2><p>There is no checklist that guarantees a bug-free release. But a short, risk-based review can help your team make a better decision.
+
+Check critical user journeys, outstanding defects, regression areas related to recent changes, and the plan for monitoring or rollback.</p></div></article><article><img src="media/11_spreadsheets.png" loading="lazy" alt="Track work with consistent statuses"><div><h2>Track work with consistent statuses</h2><p>If one tester writes &#x27;Done&#x27;, another writes &#x27;OK&#x27; and a third writes &#x27;Passed&#x27;, your dashboard starts lying.
+
+Agree on a small set of statuses and what they mean. Dropdowns help keep the data consistent—whether you&#x27;re tracking tests, tasks or reviews.</p></div></article><article><img src="media/12_qa_basics.png" loading="lazy" alt="Turn acceptance criteria into tests"><div><h2>Turn acceptance criteria into tests</h2><p>Acceptance criteria describe expected behavior. Test cases make it observable—and often reveal missing scenarios.
+
+For a discount feature, start with a valid code, then examine expired, invalid or already-used codes as the rules require.
+
+Good questions during refinement prevent confusion later.</p></div></article></section><footer><p>Also on Instagram: @frostclaw.software</p></footer></main></body></html>

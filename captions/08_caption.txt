@@ -1,0 +1,5 @@
+When checking a form, don't stop at whether the Submit button works. Test required fields, invalid formats, allowed boundary values and recovery after an error.
+
+Client-side messages help users, but server-side validation remains important for enforcing rules.
+
+#WebTesting #QATesting #WebDevelopment #SoftwareQuality

@@ -1,0 +1,7 @@
+Smoke testing is a quick check of critical functionality on a new build. Regression testing looks for unintended breakage in previously working behavior after changes.
+
+They overlap sometimes, but their purpose and depth differ.
+
+Which one does your team run more often?
+
+#QATesting #SoftwareQuality #ManualTesting #SoftwareDevelopment

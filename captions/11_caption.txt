@@ -1,0 +1,5 @@
+If one tester writes 'Done', another writes 'OK' and a third writes 'Passed', your dashboard starts lying.
+
+Agree on a small set of statuses and what they mean. Dropdowns help keep the data consistent—whether you're tracking tests, tasks or reviews.
+
+#ExcelTips #SoftwareTesting #ProjectTracking #Productivity

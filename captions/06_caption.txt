@@ -1,0 +1,7 @@
+A spreadsheet can be simple and still be well structured.
+
+Use clear headers, controlled status options, a separate summary area, and avoid merging cells within the data table. These habits make sorting, filtering and formulas much more reliable.
+
+What's your spreadsheet pet peeve?
+
+#SpreadsheetTips #ExcelTips #Productivity #WorkflowDesign

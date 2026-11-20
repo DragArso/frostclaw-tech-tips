@@ -1,0 +1,7 @@
+Boundary value analysis is a simple way to prioritize tests around input limits.
+
+If a name field accepts 3–20 characters, test 2, 3, 20 and 21—not just an ordinary 10-character value. Then consider whitespace, special characters and any normalization rules.
+
+The specification is your source of truth.
+
+#SoftwareTesting #TestDesign #QATesting #TechEducation
