@@ -1,0 +1,33 @@
+{
+  "id": "14",
+  "pillar": "QA BASICS",
+  "title": "Bug Severity vs Priority",
+  "hook": "A bug can be severe but low priority—or minor but urgent.",
+  "steps": [
+    {
+      "label": "Define severity",
+      "detail": "Severity is the technical impact of the bug, such as data loss, crashes, or security risk."
+    },
+    {
+      "label": "Assign priority",
+      "detail": "Priority is how urgently the team should fix it based on business and user needs."
+    },
+    {
+      "label": "Consider context",
+      "detail": "Release timing, affected users, workarounds and business risk can change the priority."
+    },
+    {
+      "label": "Review regularly",
+      "detail": "Reassess severity and priority as the product, release plan or impact becomes clearer."
+    }
+  ],
+  "takeaway": "Severity measures impact. Priority decides fix order.",
+  "caption": "Severity and priority are related, but they are not the same. Severity describes how serious the bug is from a technical or user-impact perspective. Priority describes how urgently the team wants to address it. A cosmetic typo on the homepage may be low severity but high priority, while a rare crash in an admin-only tool may be severe but lower priority for the current sprint.\n\nHow does your team classify bugs?\n\n#SoftwareTesting #BugTracking #QualityAssurance #TestManagement",
+  "hashtags": [
+    "#SoftwareTesting",
+    "#BugTracking",
+    "#QualityAssurance",
+    "#TestManagement"
+  ],
+  "date": "2026-12-08"
+}

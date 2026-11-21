@@ -1,0 +1,7 @@
+Severity and priority are related, but they are not the same. Severity describes how serious the bug is from a technical or user-impact perspective. Priority describes how urgently the team wants to address it. A cosmetic typo on the homepage may be low severity but high priority, while a rare crash in an admin-only tool may be severe but lower priority for the current sprint.
+
+How does your team classify bugs?
+
+#SoftwareTesting #BugTracking #QualityAssurance #TestManagement
+
+#SoftwareTesting #BugTracking #QualityAssurance #TestManagement
