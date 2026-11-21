@@ -1,0 +1,7 @@
+Equivalence partitioning groups inputs expected to behave the same way. Instead of testing every value, choose a representative from each valid and invalid class.
+
+Example: if an order quantity must be a whole number from 1 to 10, try 5 (valid), 0 (too low), 12 (too high) and 2.5 (not an integer).
+
+Then use boundary value analysis to test the edges separately. Which other classes would you check?
+
+#SoftwareTesting #QATesting #TestDesign #QualityAssurance

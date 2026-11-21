@@ -1,4 +1,17 @@
 {
-  "already_scheduled": ["01", "02", "03", "04"],
+  "already_scheduled": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12"
+  ],
   "comment": "Verified in Metricool on November 20, 2026. Do not automatically schedule these again."
 }
